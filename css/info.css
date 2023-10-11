@@ -1,0 +1,166 @@
+body{
+  background-color: rgb(65, 61, 61);
+  color: aliceblue;
+}
+img{
+  border: 3px solid aliceblue;
+}
+.cont{
+  margin-top: 20px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    align-items:center;
+    align-content:center;
+    height:100vh; 
+
+  }
+  
+  #info1{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+  }
+        
+  #info2{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+  }
+        
+  #info3{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+  }
+  #info4{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+  }
+
+  .infors{
+    margin: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(192, 188, 188);
+  }
+  #tus{
+    margin-top: 10px;
+  }
+
+  .ins{
+    background-image: url("../img/pintura4.jpg");
+    height: 350px;
+    width: 950px;
+    border: 5px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+  .ins1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #inst11{
+    font-size: 50px;
+  }
+  .inforse{
+    font-size: 45px;
+
+  }
+
+  img{
+    width: 200px;
+    height: 600px;
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 490px){
+   
+    .cont{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        justify-content:flex-start;
+        align-items:center;
+        align-content:center;
+        height:100vh; 
+      }
+      
+      #info1{
+        order:0;
+        flex:0 1 auto;
+        align-self:auto;
+        height:auto;
+        width:auto;
+      }
+            
+      #info2{
+        order:0;
+        flex:0 1 auto;
+        align-self:auto;
+        height:auto;
+        width:auto;
+      }
+            
+      #info3{
+        order:0;
+        flex:0 1 auto;
+        align-self:auto;
+        height:auto;
+        width:auto;
+      }
+      #info4{
+        order:0;
+        flex:0 1 auto;
+        align-self:auto;
+        height:auto;
+        width:auto;
+      }
+    
+      .infors{
+        margin: 15px 20px;
+        text-align: center;
+      }
+      #tus{
+        margin-top: 10px;
+      }
+    
+      .ins{
+        background-image: url("../img/pintura4.jpg");
+        height: 350px;
+        width: 950px;
+        border: 5px solid black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+      }
+      .ins1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      #inst11{
+        font-size: 50px;
+      }
+      .inforse{
+        font-size: 35px;
+      }
+    
+      img{
+        width: 200px;
+        height: 600px;
+      }
+  }

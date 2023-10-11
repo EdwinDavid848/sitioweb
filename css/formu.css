@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("../img/woman-1283009_1280.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    top: 0%;
+    justify-content: center ;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.header .logo {
+    margin-right: auto;
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+}
+.titulo{
+    font-size: 25px;
+    color: brown;
+    
+}
+.header .links1{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header .links{
+    margin-right: auto;
+}
+.header .links{
+    margin-left: auto;
+    list-style: none;
+    font-size: 15px;}
+.header .links li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .links a{
+    margin-left: auto;
+    font-size: 15px;
+    color: azure;
+    text-decoration: none;
+}
+.header .ini{
+    margin-left: auto;
+    cursor: pointer;
+}
+.header .ini button{
+    margin-right: 20px;
+    font-weight: 700;
+    color: rgb(3, 3, 3);
+    padding: 9px 25px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+}
+#somos{
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    width: 150px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+.links2{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .links3{
+  color: rgb(255, 255, 255);
+  
+
+}
+.header .links2 li{
+    margin-top: 5px;
+    font-size: 18px;
+    list-style: none;
+    margin-top: 10px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 25px;
+    border: 3px solid rgb(202, 202, 6);
+   
+}
+.header .links2 a{
+    font-size: 19px;
+    color:rgb(139, 139, 1);
+    text-decoration: none;
+    text-align: center;
+}
+.header .somos{
+    background-color: aqua;
+    margin: 10px 5px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#formulario{
+    background-color: rgba(236, 189, 100, 0.5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: start;
+    width: 500px;
+    padding: 10px;
+    font-size: 5px;
+    border: 3px solid black;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-image: url("../img/woman-1283009_1280.jpg");
+        background-size: cover;
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        height: 85px;
+        width: auto;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 15px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: aqua;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(27, 97, 97);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    #formulario{
+        background-color: rgb(97, 82, 224);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: start;
+        width: 100%;
+        padding: 10px;
+        font-size: 5px;
+        border: 3px solid black;
+    }
+ }
+
+ 
+@media screen and (min-width: 491px) and (max-width: 570px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-image: url("../img/woman-1283009_1280.jpg");
+        background-size: cover;
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        height: 85px;
+        width: auto;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 25px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: aqua;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(27, 97, 97);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    #formulario{
+        background-color: rgba(96, 82, 224, 0.5);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: start;
+        width: 100%;
+        padding: 10px;
+        font-size: 5px;
+        border: 3px solid black;
+    }
+ }
+
+ @media screen and (min-width: 571px) and (max-width: 890px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-color: rgb(27, 97, 97);
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        width: 100%;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 25px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: aqua;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(27, 97, 97);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    #formulario{
+        background-color: rgba(94, 224, 82, 0.5);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: start;
+        width: 100%;
+        padding: 10px;
+        font-size: 5px;
+        border: 3px solid black;
+    }
+ }

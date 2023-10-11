@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(74, 77, 77);
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    top: 0%;
+    justify-content: center ;
+    align-items: center;
+    height: 85px;
+    width: auto;
+    padding: 5px 20px;
+}
+
+.header .logo {
+    margin-right: auto;
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+}
+.titulo{
+    font-size: 25px;
+    color: brown;
+    
+}
+.header .links1{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header .links{
+    margin-right: auto;
+}
+.header .links{
+    margin-left: auto;
+    list-style: none;
+    font-size: 18px;}
+.header .links li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .links a{
+    margin-left: auto;
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+}
+.header .ini{
+    margin-left: auto;
+    cursor: pointer;
+}
+.header .ini button{
+    margin-right: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+}
+#somos{
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    width: 150px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+.links2{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .links3{
+    color: rgb(255, 255, 255);
+
+}
+.header .links2 li{
+    margin-top: 5px;
+    font-size: 18px;
+    list-style: none;
+    margin-top: 10px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 25px;
+    border: 3px solid rgb(202, 202, 6);
+}
+.header .links2 a{
+    font-size: 19px;
+    color:rgb(139, 139, 1);
+    text-decoration: none;
+    text-align: center;
+}
+.header .somos{
+    background-color: rgb(74, 77, 77);
+    margin: 10px 5px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos{
+    font-size: 40px;
+}
+.headers{
+    background-color: rgb(74, 77, 77);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.header1{
+    background-color: rgb(51, 50, 50);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.pinturas{
+    background-image: url("../img/monalisa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 230px;
+    margin: 30px 5px;
+    display: flex;
+    align-items: end;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 3px solid rgb(170, 162, 162);
+    border-radius: 15%;
+    background-size: cover;
+}
+
+#pinturas11{
+    background-image: url("../img/pintura2.jpg");
+    background-size: cover;
+}
+
+#pinturas12{
+    background-image: url("../img/pintura12.jpg");
+    background-size: cover;
+}
+
+#pinturas13{
+    background-image: url("../img/pintura13.jpg");
+    background-size: cover;
+}
+
+#pinturas14{
+    background-image: url("../img/pintura14.jpg");
+    background-size: cover;
+}
+
+#pinturas15{
+    background-image: url("../img/eurpa.jpg");
+    background-size: cover;
+}
+#pinturas16{
+    background-image: url("../img/afri.jpg");
+    background-size: cover;
+}
+#pinturas17{
+    background-image: url("../img/ocernaia1.jpg");
+    background-size: cover;
+}
+#pinturas18{
+    background-image: url("../img/pos.jpg");
+    background-size: cover;
+}
+#pinturas19{
+    background-image: url("../img/orinete1.jpg");
+    background-size: cover;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-color: rgb(74, 77, 77);
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        height: 85px;
+        width: auto;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 15px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: rgb(74, 77, 77);
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: rgb(74, 77, 77);
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(54, 56, 56);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .pinturas{
+        background-image: url("../img/monalisa.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 230px;
+        margin: 30px 5px;
+        display: flex;
+        align-items: end;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border: 3px solid rgb(170, 162, 162);
+        border-radius: 15%;
+        background-size: cover;
+    }
+    
+    #pinturas11{
+        background-image: url("../img/pintura2.jpg");
+        background-size: cover;
+    }
+    
+    #pinturas12{
+        background-image: url("../img/pintura12.jpg");
+        background-size: cover;
+    }
+    
+    #pinturas13{
+        background-image: url("../img/pintura13.jpg");
+        background-size: cover;
+    }
+    
+    #pinturas14{
+        background-image: url("../img/pintura14.jpg");
+        background-size: cover;
+    }
+    
+    #pinturas15{
+        background-image: url("../img/eurpa.jpg");
+        background-size: cover;
+    }
+    #pinturas16{
+        background-image: url("../img/afri.jpg");
+        background-size: cover;
+    }
+    #pinturas17{
+        background-image: url("../img/ocernaia1.jpg");
+        background-size: cover;
+    }
+    #pinturas18{
+        background-image: url("../img/pos.jpg");
+        background-size: cover;
+    }
+    #pinturas19{
+        background-image: url("../img/orinete1.jpg");
+        background-size: cover;
+    }
+}
+
+ 
+@media screen and (min-width: 491px) and (max-width: 570px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-color: rgb(74, 77, 77);
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        height: 85px;
+        width: auto;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 25px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: rgb(74, 77, 77);
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(51, 53, 53);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 30px;
+    }
+ }
+
+ 
+ @media screen and (min-width: 571px) and (max-width: 890px){
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-color: rgb(74, 77, 77);
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        
+        width: 100%;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 25px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: rgb(74, 77, 77);
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(52, 53, 53);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 40px;
+    }
+ }

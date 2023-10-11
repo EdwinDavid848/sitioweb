@@ -1,0 +1,768 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.logos{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(65, 61, 61);
+    color: rgb(0, 0, 0);
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    top: 0%;
+    justify-content: center ;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.header .logo {
+    margin-right: auto;
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+}
+.titulo{
+    font-size: 25px;
+    color: brown;
+    
+}
+.header .links1{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.header .links{
+    margin-right: auto;
+}
+.header .links{
+    margin-left: auto;
+    list-style: none;
+    font-size: 15px;}
+.header .links li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .links a{
+    margin-left: auto;
+    font-size: 15px;
+    color: azure;
+    text-decoration: none;
+}
+.header .ini{
+    margin-left: auto;
+    cursor: pointer;
+}
+.header .ini button{
+    margin-right: 20px;
+    font-weight: 700;
+    color: rgb(3, 3, 3);
+    padding: 9px 25px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+}
+#somos{
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    width: 150px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+.links2{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .links3{
+  color: rgb(255, 255, 255);
+  
+
+}
+.header .links2 li{
+    margin-top: 5px;
+    font-size: 18px;
+    list-style: none;
+    margin-top: 10px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 25px;
+    border: 3px solid rgb(202, 202, 6);
+   
+}
+.header .links2 a{
+    font-size: 19px;
+    color:rgb(139, 139, 1);
+    text-decoration: none;
+    text-align: center;
+}
+.header .somos{
+    background-color: aqua;
+    margin: 10px 5px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.divs{
+    background-color: rgb(29, 146, 107);
+    height: 30px;
+    width: 20%;
+    margin: 5px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pinturas{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    background-image: url("../img/monalisa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 390px;
+    border-radius: 5%;
+    border: 5px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info{
+    text-align: center;
+    width: 1000px;
+    color: rgb(0, 0, 0);
+}
+
+#pintura1{
+    background-image: url("../img/pintura1.jpg");
+    width: 750px;
+    height: 450px;
+}
+#pintura2{
+    background-image: url("../img/pintura2.jpg");
+    height: 550px;
+    width: 390px;
+}
+#pintura3{
+    background-image: url("../img/pintura3.jpg");
+    height: 550px;
+    width: 700px;
+}
+#pintura4{
+    background-image: url("../img/pintura4.jpg");
+    height: 390px;
+    width: 1100px;
+}
+#pintura5{
+    background-image: url("../img/pintura5.jpg");
+    height: 400px;
+    width: 900px;
+}
+#pintura6{
+    background-image: url("../img/pintura6.jpg");
+    height: 550px;
+    width: 700px;
+}
+#pintura7{
+    background-image: url("../img/pintura7.jpg");
+    height: 400px;
+    width: 1150px;
+}#pintura8{
+    background-image: url("../img/pintura8.jpg");
+    height: 620px;
+    width: 700px;
+}
+#pintura9{
+    background-image: url("../img/pintura9.jpg");
+    height: 500px;
+    width: 598px;
+}
+#pintura10{
+    background-image: url("../img/pinrura10.jpg");
+    height: 650px;
+    width: 640px;
+}
+.titu{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    body{
+        background-color: rgba(255, 255, 255, 0.712);
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img{
+        background-image: url("../img/monalisa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 390px;
+        border-radius: 5%;
+        border: 5px solid black;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+    }
+    #pintura0{
+        height: 500px;
+        width: 100%;
+    }
+
+    #pintura1{
+        background-image: url("../img/pintura1.jpg");
+        width: 100%;
+        height: 250px;
+    }
+
+    #pintura2{
+        background-image: url("../img/pintura2.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    #pintura3{
+        width:300px;
+    }
+    #pintura4{
+        background-image: url("../img/pintura4.jpg");
+        height: 290px;
+        width: 100%;
+    }
+
+    #pintura5{
+        background-image: url("../img/pintura5.jpg");
+        height: 200px;
+        width: 100%;
+    }
+    #pintura6{
+        background-image: url("../img/pintura6.jpg");
+        height: 225px;
+        width: 100%;
+    }
+    #pintura7{
+        background-image: url("../img/pintura7.jpg");
+        height: 200px;
+        width: 100%;
+    }#pintura8{
+        background-image: url("../img/pintura8.jpg");
+        height: 310px;
+        width: 100%;
+    }
+    #pintura9{
+        background-image: url("../img/pintura9.jpg");
+        height: 250px;
+        width: 100%;
+    }
+    #pintura10{
+        background-image: url("../img/pinrura10.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    .pinturas{
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        padding: 10px 10px;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        flex-direction: column;
+    }
+    .info{
+        width: 80%;
+        flex-wrap: nowrap;
+    
+    }
+    #infor{
+        font-size:12px;
+        padding: 5px;
+        color: rgb(66, 131, 131);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #pintura2{
+        height: 150px;
+        width: 400px;
+        background-size: cover;
+    }
+
+    .titulo{
+        font-size: 15px;
+    }
+    .header{
+        font-size: 5px;
+        background-color: rgb(0, 0, 0);
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titu{
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+        margin: 25px;
+        text-align: center;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 10%;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .header .ini{
+        margin-left: auto;
+        width: 20%;
+        cursor: pointer;
+    }
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    button{
+        width: 100%;
+        
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+    body{
+        background-color: rgba(255, 255, 255, 0.712);
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img{
+        background-image: url("../img/monalisa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 390px;
+        border-radius: 5%;
+        border: 5px solid black;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+    }
+    #pintura0{
+        height: 500px;
+        width: 100%;
+    }
+
+    #pintura1{
+        background-image: url("../img/pintura1.jpg");
+        width: 100%;
+        height: 250px;
+    }
+
+    #pintura2{
+        background-image: url("../img/pintura2.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    #pintura3{
+        width:300px;
+    }
+    #pintura4{
+        background-image: url("../img/pintura4.jpg");
+        height: 290px;
+        width: 100%;
+    }
+
+    #pintura5{
+        background-image: url("../img/pintura5.jpg");
+        height: 200px;
+        width: 100%;
+    }
+    #pintura6{
+        background-image: url("../img/pintura6.jpg");
+        height: 225px;
+        width: 100%;
+    }
+    #pintura7{
+        background-image: url("../img/pintura7.jpg");
+        height: 200px;
+        width: 100%;
+    }#pintura8{
+        background-image: url("../img/pintura8.jpg");
+        height: 310px;
+        width: 100%;
+    }
+    #pintura9{
+        background-image: url("../img/pintura9.jpg");
+        height: 250px;
+        width: 100%;
+    }
+    #pintura10{
+        background-image: url("../img/pinrura10.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    .pinturas{
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        padding: 10px 10px;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        flex-direction: column;
+    }
+    .info{
+        width: 80%;
+        flex-wrap: nowrap;
+    
+    }
+    #infor{
+        font-size:12px;
+        padding: 5px;
+        color: rgb(66, 131, 131);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #pintura2{
+        height: 150px;
+        width: 400px;
+        background-size: cover;
+    }
+
+    .titulo{
+        font-size: 25px;
+    }
+    .header{
+        font-size: 5px;
+        background-color: rgb(0, 0, 0);
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titu{
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+        margin: 25px;
+        text-align: center;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 10%;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .header .ini{
+        margin-left: auto;
+        width: 20%;
+        cursor: pointer;
+    }
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    button{
+        width: 100%;
+        
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+    body{
+        background-color: rgba(255, 255, 255, 0.712);
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img{
+        background-image: url("../img/monalisa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 390px;
+        border-radius: 5%;
+        border: 5px solid black;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+    }
+    #pintura0{
+        height: 500px;
+        width: 100%;
+    }
+
+    #pintura1{
+        background-image: url("../img/pintura1.jpg");
+        width: 100%;
+        height: 250px;
+    }
+
+    #pintura2{
+        background-image: url("../img/pintura2.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    #pintura3{
+        width:300px;
+    }
+    #pintura4{
+        background-image: url("../img/pintura4.jpg");
+        height: 290px;
+        width: 100%;
+    }
+
+    #pintura5{
+        background-image: url("../img/pintura5.jpg");
+        height: 200px;
+        width: 100%;
+    }
+    #pintura6{
+        background-image: url("../img/pintura6.jpg");
+        height: 225px;
+        width: 100%;
+    }
+    #pintura7{
+        background-image: url("../img/pintura7.jpg");
+        height: 200px;
+        width: 100%;
+    }#pintura8{
+        background-image: url("../img/pintura8.jpg");
+        height: 310px;
+        width: 100%;
+    }
+    #pintura9{
+        background-image: url("../img/pintura9.jpg");
+        height: 250px;
+        width: 100%;
+    }
+    #pintura10{
+        background-image: url("../img/pinrura10.jpg");
+        height: 350px;
+        width: 100%;
+    }
+    .pinturas{
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        padding: 10px 10px;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        flex-direction: column;
+    }
+    .info{
+        width: 80%;
+        flex-wrap: nowrap;
+    
+    }
+    #infor{
+        font-size:12px;
+        padding: 5px;
+        color: rgb(66, 131, 131);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #pintura2{
+        height: 150px;
+        width: 400px;
+        background-size: cover;
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        top: 0%;
+        justify-content: center ;
+        align-items: center;
+        width: 100%;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+        height: 150px;
+    }
+    
+    .header .logo {
+        margin-right: auto;
+        height: 70px;
+        width: auto;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+    }
+    .titulo{
+        font-size: 25px;
+        color: brown;
+        
+    }
+    
+    .header .links1{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .header .links{
+        margin-right: auto;
+    }
+    .header .links{
+        margin-left: auto;
+        list-style: none;
+        font-size: 18px;}
+    .header .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .header .links a{
+        margin-left: auto;
+        font-size: 18px;
+        color: azure;
+        text-decoration: none;
+    }
+    .header .ini{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    .header .ini button{
+        margin-right: 20px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 25px;
+        background: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50px;
+    }
+    #somos{
+        background-color: rgb(0, 0, 0);
+        margin-right: 20px;
+        width: 150px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
+    .links2{
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .links3{
+        color: rgb(255, 255, 255);
+    
+    }
+    .header .links2 li{
+        margin-top: 5px;
+        font-size: 18px;
+        list-style: none;
+        margin-top: 10px;
+        background-color: rgb(20, 18, 18);
+        border-radius: 25px;
+        border: 3px solid rgb(202, 202, 6);
+    }
+    .header .links2 a{
+        font-size: 19px;
+        color:rgb(139, 139, 1);
+        text-decoration: none;
+        text-align: center;
+    }
+    .header .somos{
+        background-color: aqua;
+        margin: 10px 5px;
+        padding-left: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titulos{
+        font-size: 20px;
+    }
+    .headers{
+        background-color: aqua;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .header1{
+        background-color: rgb(27, 97, 97);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+}
